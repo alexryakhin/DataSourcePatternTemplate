@@ -12,6 +12,7 @@
 		C09A021D279EA8D2002DD896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09A021C279EA8D2002DD896 /* Assets.xcassets */; };
 		C09A0220279EA8D2002DD896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A021E279EA8D2002DD896 /* LaunchScreen.storyboard */; };
 		C09A0229279EA99A002DD896 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C09A0228279EA99A002DD896 /* SnapKit */; };
+		C09A022B279EAA29002DD896 /* ImageInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A022A279EAA29002DD896 /* ImageInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C09A021C279EA8D2002DD896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C09A021F279EA8D2002DD896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C09A0221279EA8D2002DD896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09A022A279EAA29002DD896 /* ImageInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C09A0213279EA8D0002DD896 /* AppDelegate.swift */,
 				C09A0217279EA8D0002DD896 /* ViewController.swift */,
+				C09A022A279EAA29002DD896 /* ImageInfoView.swift */,
 				C09A021C279EA8D2002DD896 /* Assets.xcassets */,
 				C09A021E279EA8D2002DD896 /* LaunchScreen.storyboard */,
 				C09A0221279EA8D2002DD896 /* Info.plist */,
@@ -141,6 +144,7 @@
 			files = (
 				C09A0218279EA8D0002DD896 /* ViewController.swift in Sources */,
 				C09A0214279EA8D0002DD896 /* AppDelegate.swift in Sources */,
+				C09A022B279EAA29002DD896 /* ImageInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
