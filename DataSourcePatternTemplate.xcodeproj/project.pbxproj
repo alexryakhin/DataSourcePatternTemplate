@@ -13,6 +13,8 @@
 		C09A0220279EA8D2002DD896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A021E279EA8D2002DD896 /* LaunchScreen.storyboard */; };
 		C09A0229279EA99A002DD896 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C09A0228279EA99A002DD896 /* SnapKit */; };
 		C09A022B279EAA29002DD896 /* ImageInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A022A279EAA29002DD896 /* ImageInfoView.swift */; };
+		C09A022D279EB7DE002DD896 /* ImageInfoViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A022C279EB7DE002DD896 /* ImageInfoViewDataSource.swift */; };
+		C09A022F279EBC1F002DD896 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A022E279EBC1F002DD896 /* ImageInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		C09A021F279EA8D2002DD896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C09A0221279EA8D2002DD896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C09A022A279EAA29002DD896 /* ImageInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfoView.swift; sourceTree = "<group>"; };
+		C09A022C279EB7DE002DD896 /* ImageInfoViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfoViewDataSource.swift; sourceTree = "<group>"; };
+		C09A022E279EBC1F002DD896 /* ImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C09A0213279EA8D0002DD896 /* AppDelegate.swift */,
 				C09A0217279EA8D0002DD896 /* ViewController.swift */,
 				C09A022A279EAA29002DD896 /* ImageInfoView.swift */,
+				C09A022E279EBC1F002DD896 /* ImageInfo.swift */,
+				C09A022C279EB7DE002DD896 /* ImageInfoViewDataSource.swift */,
 				C09A021C279EA8D2002DD896 /* Assets.xcassets */,
 				C09A021E279EA8D2002DD896 /* LaunchScreen.storyboard */,
 				C09A0221279EA8D2002DD896 /* Info.plist */,
@@ -76,6 +82,7 @@
 				C09A020C279EA8D0002DD896 /* Sources */,
 				C09A020D279EA8D0002DD896 /* Frameworks */,
 				C09A020E279EA8D0002DD896 /* Resources */,
+				C09A0230279EBF52002DD896 /* Swift Lint */,
 			);
 			buildRules = (
 			);
@@ -137,12 +144,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C09A0230279EBF52002DD896 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C09A020C279EA8D0002DD896 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C09A0218279EA8D0002DD896 /* ViewController.swift in Sources */,
+				C09A022F279EBC1F002DD896 /* ImageInfo.swift in Sources */,
+				C09A022D279EB7DE002DD896 /* ImageInfoViewDataSource.swift in Sources */,
 				C09A0214279EA8D0002DD896 /* AppDelegate.swift in Sources */,
 				C09A022B279EAA29002DD896 /* ImageInfoView.swift in Sources */,
 			);
